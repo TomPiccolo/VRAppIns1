@@ -134,7 +134,7 @@
 74-->[:unityLibrary] /Users/thomaspiccolo/Documents/GitHub/VRAppIns1/InspireVR1/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:65:9-67:68
 75            android:name="unity.build-id"
 75-->[:unityLibrary] /Users/thomaspiccolo/Documents/GitHub/VRAppIns1/InspireVR1/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:66:13-42
-76            android:value="20931569-42de-4770-aff6-20a4a4436264" />
+76            android:value="8c13b69e-8a21-43a1-8b57-0b76fc5c9e4b" />
 76-->[:unityLibrary] /Users/thomaspiccolo/Documents/GitHub/VRAppIns1/InspireVR1/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:67:13-65
 77        <meta-data
 77-->[:unityLibrary] /Users/thomaspiccolo/Documents/GitHub/VRAppIns1/InspireVR1/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:68:9-70:39
