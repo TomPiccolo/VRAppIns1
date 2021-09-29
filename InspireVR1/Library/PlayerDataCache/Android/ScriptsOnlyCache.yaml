@@ -1483,7 +1483,7 @@ ScriptsOnlyBuild:
     className: XRReferenceObjectLibrary
   - hash:
       serializedVersion: 2
-      Hash: 94febbbcab6332d497553a02ea383fa7
+      Hash: adda7368f9c0440ae1a271dea1725f17
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: HandPresence
