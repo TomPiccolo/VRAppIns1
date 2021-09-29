@@ -284,3 +284,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3077.682295 seconds.
+  path: Assets/Controller.prefab
+  artifactKey: Guid(d245fe0e8365f421d86f510faaf0cfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Controller.prefab using Guid(d245fe0e8365f421d86f510faaf0cfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbff77973398d7f800cbdf0bb458afee') in 0.590894 seconds 
+  Import took 0.613059 seconds .
+
