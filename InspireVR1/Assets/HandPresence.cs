@@ -52,13 +52,14 @@ public class HandPresence : MonoBehaviour
 
         if(showController)
         {
-            spawnedController.SetActive(false);
-            spawnedHandModel.SetActive(true);
+            spawnedHandModel.SetActive(false);
+            spawnedController.SetActive(true);
+           
         }
         else
         {
-            spawnedController.SetActive(true);
             spawnedHandModel.SetActive(true);
+            spawnedController.SetActive(false);
         }
     }
 }
