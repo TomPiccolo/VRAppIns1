@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - HandPresence
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
@@ -214,6 +216,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21390}
     - Class: 114
       Script: {instanceID: 21440}
+    - Class: 114
+      Script: {instanceID: 32060}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1477,7 +1481,13 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARSubsystems.dll
     namespaceName: UnityEngine.XR.ARSubsystems
     className: XRReferenceObjectLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 94febbbcab6332d497553a02ea383fa7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HandPresence
   platform: 13
   scenePathNames:
   - Assets/Scenes/VR Bowling.unity
-  playerPath: /Users/thomaspiccolo/Documents/GitHub/VRAppIns1/InspireVR1/InspireVR1app.apk
+  playerPath: /Users/thomaspiccolo/Documents/GitHub/VRAppIns1/InspireVR1/InspireVR1app1.apk
