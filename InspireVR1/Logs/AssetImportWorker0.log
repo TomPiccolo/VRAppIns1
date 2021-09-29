@@ -993,3 +993,135 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011686 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.44 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.566 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1567ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (129ms)
+		EndReloadAssembly (1289ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (442ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (439ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (284ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.43 ms.
+Unloading 3305 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 269.0 MB.
+System memory in use after: 269.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3998.
+Total: 4.155764 ms (FindLiveObjects: 0.424687 ms CreateObjectMapping: 0.167539 ms MarkObjects: 3.535414 ms  DeleteObjects: 0.027156 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 844.555149 seconds.
+  path: Assets/Hand Presence.prefab
+  artifactKey: Guid(672930c4676004ddca29defa9b87fe5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand Presence.prefab using Guid(672930c4676004ddca29defa9b87fe5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70adc42de3ff59393e72cbab8fb710a0') in 0.053116 seconds 
+  Import took 0.060041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.712936 seconds.
+  path: Assets/Hand Presence.prefab
+  artifactKey: Guid(672930c4676004ddca29defa9b87fe5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand Presence.prefab using Guid(672930c4676004ddca29defa9b87fe5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5492ca2eb9bdf076f92f5d20f3974f6d') in 0.031161 seconds 
+  Import took 0.045845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.403024 seconds.
+  path: Assets/Hand Presence.prefab
+  artifactKey: Guid(672930c4676004ddca29defa9b87fe5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand Presence.prefab using Guid(672930c4676004ddca29defa9b87fe5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0b639536d39ff6567d5cc20c688945') in 0.022130 seconds 
+  Import took 0.029888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.665724 seconds.
+  path: Assets/Hand Presence 1.prefab
+  artifactKey: Guid(64bb72c2081d748859d98f367bfa8dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand Presence 1.prefab using Guid(64bb72c2081d748859d98f367bfa8dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f32a86010c72161ccd879ebc0fd9f9') in 0.021131 seconds 
+  Import took 0.033112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.773290 seconds.
+  path: Assets/Hand Presence 1.prefab
+  artifactKey: Guid(64bb72c2081d748859d98f367bfa8dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand Presence 1.prefab using Guid(64bb72c2081d748859d98f367bfa8dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da536481bb88907536b26b3d82458ccc') in 0.043498 seconds 
+  Import took 0.060558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.661383 seconds.
+  path: Assets/Hand Presence 1.prefab
+  artifactKey: Guid(64bb72c2081d748859d98f367bfa8dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand Presence 1.prefab using Guid(64bb72c2081d748859d98f367bfa8dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741da149290e0df846ba289766361bf3') in 0.031705 seconds 
+  Import took 0.050504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.816896 seconds.
+  path: Assets/Left Hand Presence.prefab
+  artifactKey: Guid(64bb72c2081d748859d98f367bfa8dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Left Hand Presence.prefab using Guid(64bb72c2081d748859d98f367bfa8dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9767af7aa61fddd0c14ed488ef7c0fad') in 0.026041 seconds 
+  Import took 0.038725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022417 seconds.
+  path: Assets/HandPresence.cs
+  artifactKey: Guid(3da3798ff39e1438ba614dafb24a640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HandPresence.cs using Guid(3da3798ff39e1438ba614dafb24a640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4144f89d59f8025c594f2e26363a03a6') in 0.006541 seconds 
+  Import took 0.016524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.377297 seconds.
+  path: Assets/Right Hand Presence.prefab
+  artifactKey: Guid(672930c4676004ddca29defa9b87fe5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Right Hand Presence.prefab using Guid(672930c4676004ddca29defa9b87fe5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31fac5b52b96dd4818cba64437a5f9e') in 0.028416 seconds 
+  Import took 0.039661 seconds .
+
