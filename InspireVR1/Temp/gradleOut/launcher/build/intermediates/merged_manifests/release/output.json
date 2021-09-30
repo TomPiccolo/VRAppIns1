@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "com.DefaultCompany.InspireVR2",
+  "applicationId": "com.DefaultCompany.InspireVR3",
   "variantType": "BASE_APK",
   "elements": [
     {
@@ -19,7 +19,7 @@
       },
       "path": "AndroidManifest.xml",
       "properties": {
-        "packageId": "com.DefaultCompany.InspireVR2",
+        "packageId": "com.DefaultCompany.InspireVR3",
         "split": "",
         "minSdkVersion": "23"
       }
