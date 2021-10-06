@@ -782,3 +782,4 @@ Received Import Request.
 Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d3bac30e0c3da08768836858914317') in 0.099838 seconds 
   Import took 0.150206 seconds .
 
+Internal: Possible leak. All render texture surfaces should be removed from IdMap when destructed using RenderTextureMap::Remove(RenderSurfaceBase* rs).
