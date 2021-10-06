@@ -33,6 +33,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
-    - Color_94d1369dfd09466797cd2a6fbcfad0c3: {r: 0, g: 0, b: 0, a: 0}
-    - Color_fabadd99dc9440f68950ce716777c2fb: {r: 0, g: 0, b: 0, a: 0}
+    - Color_94d1369dfd09466797cd2a6fbcfad0c3: {r: 0.5283019, g: 0.14204343, b: 0.16471352, a: 0}
+    - Color_fabadd99dc9440f68950ce716777c2fb: {r: 0.7169812, g: 0.467582, b: 0.2807049, a: 0}
   m_BuildTextureStacks: []
