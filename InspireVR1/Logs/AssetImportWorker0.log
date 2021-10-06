@@ -571,3 +571,184 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3064.888530 seconds.
+  path: Assets/Oculus Hands
+  artifactKey: Guid(fc418d5ed5159f24b9212a11bb97db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus Hands using Guid(fc418d5ed5159f24b9212a11bb97db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c065ad8d6bac364c72cff94cc9ff35') in 0.001331 seconds 
+  Import took 0.010987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.354096 seconds.
+  path: Assets/NewUnlitShader.shader
+  artifactKey: Guid(b07080a0f53c840f5b51a6bcc8498a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewUnlitShader.shader using Guid(b07080a0f53c840f5b51a6bcc8498a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30c6b9782d7256c0256a52c32cbecca') in 0.156106 seconds 
+  Import took 0.164875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.566441 seconds.
+  path: Assets/New Shader Graph.shadergraph
+  artifactKey: Guid(b1dccc79596fb4857a21df7753d10f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Shader Graph.shadergraph using Guid(b1dccc79596fb4857a21df7753d10f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e0af9c0d3f7e82e2c04ad0a16845ff') in 0.131181 seconds 
+  Import took 0.142707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.805278 seconds.
+  path: Assets/Color Ramp.shadergraph
+  artifactKey: Guid(b1dccc79596fb4857a21df7753d10f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Color Ramp.shadergraph using Guid(b1dccc79596fb4857a21df7753d10f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad5f09357b10118e7d7f920565d313e') in 0.002980 seconds 
+  Import took 0.010815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2073.173572 seconds.
+  path: Assets/New Shader Graph.shadergraph
+  artifactKey: Guid(b1dccc79596fb4857a21df7753d10f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Shader Graph.shadergraph using Guid(b1dccc79596fb4857a21df7753d10f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9981ed7a3b11937e9afa5aa47fea4655') in 0.038436 seconds 
+  Import took 0.133999 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022305 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.05 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.64 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.021 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2024ms)
+		BeginReloadAssembly (491ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (397ms)
+		EndReloadAssembly (1445ms)
+			LoadAssemblies (157ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (487ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (500ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (325ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.56 ms.
+Unloading 3837 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 305.4 MB.
+System memory in use after: 305.3 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 4501.
+Total: 5.288990 ms (FindLiveObjects: 0.764860 ms CreateObjectMapping: 0.256662 ms MarkObjects: 3.901118 ms  DeleteObjects: 0.365214 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 388.111522 seconds.
+  path: Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/3rd Person Controller.prefab
+  artifactKey: Guid(2314ce3a3eecf4816bad3c9eca4de2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/3rd Person Controller.prefab using Guid(2314ce3a3eecf4816bad3c9eca4de2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0a49b7bed208427903b9d1c95add14') in 0.588126 seconds 
+  Import took 0.600886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018847 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/Ball03WithOutline.mat
+  artifactKey: Guid(9cba9da727fd742f5b4083909359be0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/Ball03WithOutline.mat using Guid(9cba9da727fd742f5b4083909359be0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35b06c8b05fb42fc165143e1092d90f') in 0.242692 seconds 
+  Import took 0.260203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013780 seconds.
+  path: Assets/Oculus/Spatializer/scenes/materials/AmbisonicObject1.mat
+  artifactKey: Guid(584662273d60a0f47bd7fecbb570e66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Spatializer/scenes/materials/AmbisonicObject1.mat using Guid(584662273d60a0f47bd7fecbb570e66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0141d7e3b1a52dc11c74cc470ac5daf9') in 0.091832 seconds 
+  Import took 0.100692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000906 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif using Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ecab77574e4c53a99e2c6f460b3af90') in 0.489645 seconds 
+  Import took 0.503021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027228 seconds.
+  path: Assets/Oculus/VR/Meshes/Cone.obj
+  artifactKey: Guid(c28fa8d61f81fb742b1180a6d4516625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Meshes/Cone.obj using Guid(c28fa8d61f81fb742b1180a6d4516625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff034a146d84700928b6a484e2b1541') in 2.660804 seconds 
+  Import took 2.674692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021544 seconds.
+  path: Assets/ExampleAssets/Models/Workbench.fbx
+  artifactKey: Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Workbench.fbx using Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9763579b58169ef327fd8d483de42484') in 0.279598 seconds 
+  Import took 0.288257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024524 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/Ball10WithOutline.mat
+  artifactKey: Guid(d00d1a54e2eb041f4aaa2e3a08cd3e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/Ball10WithOutline.mat using Guid(d00d1a54e2eb041f4aaa2e3a08cd3e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6fb4fa9fea7525974d57a3305445ea') in 0.028746 seconds 
+  Import took 0.036945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Oculus/Spatializer/scenes/sounds/360 Workstation Ambisonic Panning AmbiX.wav
+  artifactKey: Guid(1340d7fb0cd1bfb4caa3b3270cb2ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Spatializer/scenes/sounds/360 Workstation Ambisonic Panning AmbiX.wav using Guid(1340d7fb0cd1bfb4caa3b3270cb2ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd10c1f48111c8c6b11b30935b6d5c9b') in 0.401701 seconds 
+  Import took 0.413187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023629 seconds.
+  path: Assets/ExampleAssets/Models/Workbench_Low.fbx
+  artifactKey: Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Workbench_Low.fbx using Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f99d08570cdde3afaf55ae1a8262d9b') in 0.151908 seconds 
+  Import took 0.162523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 687.914574 seconds.
+  path: Assets/New Shader Graph.shadergraph
+  artifactKey: Guid(b1dccc79596fb4857a21df7753d10f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Shader Graph.shadergraph using Guid(b1dccc79596fb4857a21df7753d10f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68089fa4c12fea07a2b76a66fe7c431') in 0.010184 seconds 
+  Import took 0.021606 seconds .
+
