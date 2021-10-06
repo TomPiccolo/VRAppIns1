@@ -2,6 +2,8 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - HandPresence
+    Oculus.Spatializer.dll:
+    - ONSPSettings
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
     - OVRConfig
@@ -37,7 +39,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.UI.DebugUIHandlerVector4
     - UnityEngine.Rendering.UI.UIFoldout
     Unity.RenderPipelines.Universal.Editor.dll:
-    - UnityEditor.Rendering.Universal.AssetVersion
     - UnityEditor.Rendering.Universal.UniversalProjectSettings
     Unity.RenderPipelines.Universal.Runtime.dll:
     - UnityEngine.Rendering.Universal.ForwardRendererData
@@ -48,9 +49,14 @@ ScriptsOnlyBuild:
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.Interaction.Toolkit.dll:
+    - UnityEngine.XR.Interaction.Toolkit.LocomotionSystem
+    - UnityEngine.XR.Interaction.Toolkit.TeleportationProvider
     - UnityEngine.XR.Interaction.Toolkit.XRController
     - UnityEngine.XR.Interaction.Toolkit.XRDirectInteractor
     - UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable
+    - UnityEngine.XR.Interaction.Toolkit.XRInteractionManager
+    - UnityEngine.XR.Interaction.Toolkit.XRInteractorLineVisual
+    - UnityEngine.XR.Interaction.Toolkit.XRRayInteractor
     - UnityEngine.XR.Interaction.Toolkit.XRRig
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
@@ -155,6 +161,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1998}
     - Class: 114
+      Script: {instanceID: 2164}
+    - Class: 114
       Script: {instanceID: 2418}
     - Class: 114
       Script: {instanceID: 2684}
@@ -181,13 +189,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4198}
     - Class: 114
+      Script: {instanceID: 4502}
+    - Class: 114
+      Script: {instanceID: 4570}
+    - Class: 114
       Script: {instanceID: 4584}
     - Class: 114
       Script: {instanceID: 4734}
     - Class: 114
+      Script: {instanceID: 4908}
+    - Class: 114
       Script: {instanceID: 5016}
     - Class: 114
       Script: {instanceID: 5100}
+    - Class: 114
+      Script: {instanceID: 5460}
     - Class: 114
       Script: {instanceID: 6034}
     - Class: 114
@@ -219,6 +235,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7312}
     - Class: 114
+      Script: {instanceID: 7322}
+    - Class: 114
       Script: {instanceID: 7422}
     - Class: 114
       Script: {instanceID: 7546}
@@ -237,6 +255,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9390}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
