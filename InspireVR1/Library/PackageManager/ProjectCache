@@ -68,6 +68,8 @@ m_PackageAssets:
         - 1.9.0
         - 1.10.2
         - 1.11.2
+        - 1.12.5
+        - 1.13.5
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -82,6 +84,8 @@ m_PackageAssets:
         - 1.9.0
         - 1.10.2
         - 1.11.2
+        - 1.12.5
+        - 1.13.5
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -1284,8 +1288,10 @@ m_PackageAssets:
         - 1.10.0-preview.1
         - 1.10.0-preview.2
         - 1.10.0
+        - 1.10.1-preview.3
         compatible:
         - 1.10.0
+        - 1.10.1-preview.3
         verified: 1.10.0
       dependencies:
       - name: com.unity.xr.management
@@ -3719,6 +3725,7 @@ m_PackageAssets:
         - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
+        - 1.2.4
         compatible:
         - 0.0.12-preview.2
         - 0.0.12-preview.5
@@ -3734,7 +3741,8 @@ m_PackageAssets:
         - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
-        verified: 1.2.1
+        - 1.2.4
+        verified: 1.2.4
       dependencies: []
       resolvedDependencies: []
       keywords:
