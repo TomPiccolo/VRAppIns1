@@ -1,4 +1,4 @@
-com.BrooklynTravels.InspireVR5
+com.BrooklynTravels.InspireVR6
 id unitySurfaceView
 mipmap app_icon
 mipmap app_icon_round

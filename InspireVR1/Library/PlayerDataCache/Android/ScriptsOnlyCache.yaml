@@ -51,6 +51,7 @@ ScriptsOnlyBuild:
     Unity.ShaderGraph.Editor.dll:
     - UnityEditor.Graphing.GraphObject
     - UnityEditor.ShaderGraph.Drawing.MaterialGraphEditWindow
+    - UnityEditor.ShaderGraph.SubGraphAsset
     Unity.XR.Interaction.Toolkit.dll:
     - UnityEngine.XR.Interaction.Toolkit.LocomotionSystem
     - UnityEngine.XR.Interaction.Toolkit.TeleportationAnchor
@@ -71,6 +72,8 @@ ScriptsOnlyBuild:
     Unity.XR.Oculus.dll:
     - Unity.XR.Oculus.OculusLoader
     - Unity.XR.Oculus.OculusSettings
+    Unity.XR.WindowsMixedReality.Editor.dll:
+    - UnityEditor.XR.WindowsMR.WindowsMRPackageSettings
     Unity.XR.WindowsMixedReality.dll:
     - UnityEngine.XR.WindowsMR.WindowsMRLoader
     UnityEditor.Graphs.dll:
