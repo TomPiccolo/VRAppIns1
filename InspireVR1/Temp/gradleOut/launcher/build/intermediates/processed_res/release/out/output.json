@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "com.BrooklynTravels.InspireVR6",
+  "applicationId": "com.BrooklynTravels.InspireVR7",
   "variantType": "BASE_APK",
   "elements": [
     {
@@ -19,7 +19,7 @@
       },
       "path": "resources-release.ap_",
       "properties": {
-        "packageId": "com.BrooklynTravels.InspireVR6",
+        "packageId": "com.BrooklynTravels.InspireVR7",
         "split": "",
         "minSdkVersion": "23"
       }

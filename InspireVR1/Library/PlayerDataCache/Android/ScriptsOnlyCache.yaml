@@ -54,6 +54,7 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.Interaction.Toolkit.TeleportationAnchor
     - UnityEngine.XR.Interaction.Toolkit.TeleportationArea
     - UnityEngine.XR.Interaction.Toolkit.TeleportationProvider
+    - UnityEngine.XR.Interaction.Toolkit.UI.TrackedDeviceGraphicRaycaster
     - UnityEngine.XR.Interaction.Toolkit.XRController
     - UnityEngine.XR.Interaction.Toolkit.XRDirectInteractor
     - UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable
@@ -69,6 +70,8 @@ ScriptsOnlyBuild:
     Unity.XR.Oculus.dll:
     - Unity.XR.Oculus.OculusLoader
     - Unity.XR.Oculus.OculusSettings
+    Unity.XR.WindowsMixedReality.Editor.dll:
+    - UnityEditor.XR.WindowsMR.WindowsMRPackageSettings
     Unity.XR.WindowsMixedReality.dll:
     - UnityEngine.XR.WindowsMR.WindowsMRLoader
     UnityEditor.Graphs.dll:
@@ -76,7 +79,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -255,6 +257,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 8672}
     - Class: 114
       Script: {instanceID: 9032}
+    - Class: 114
+      Script: {instanceID: 9254}
     - Class: 114
       Script: {instanceID: 9326}
     - Class: 114
@@ -2856,7 +2860,13 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LocomotionControllerV
+  - hash:
+      serializedVersion: 2
+      Hash: e5d83d8736b02d4479d5bb358ec0ff9c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VideoProgressBar
   platform: 13
   scenePathNames:
   - Assets/Scenes/VR Bowling.unity
-  playerPath: /Users/thomaspiccolo/Documents/GitHub/VRAppIns1/InspireVR1/InspireVR1app11.apk
+  playerPath: /Users/thomaspiccolo/Documents/GitHub/VRAppIns1/InspireVR1/InspireVR1app12.apk
