@@ -1,4 +1,52 @@
+# Starting compiling UnityEngine.UI.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-7b161d1bbabff4b8ab26d123dab4d778
+# Starting compiling UnityEngine.TestRunner.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b81c9722cce054f8999d68897710909e
+# Starting compiling Unity.RenderPipelines.Universal.Shaders.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-4531fb4c67b224c88bbaab2aca66e390
+# Starting compiling Unity.InputSystem.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-64e8dd28c00aa4974b1d4743ecab10ec
+# Starting compiling Unity.RenderPipelines.Core.ShaderLibrary.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-cbbb81d6c696449d5acc8c7798f06b75
+# Starting compiling UnityEngine.SpatialTracking.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-caf72ad068ed44a698b8b06911e62369
+# Starting compiling Unity.XR.Management.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d5217018286794614bb54cc438fd9637
+# Starting compiling Oculus.Platform.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d70d470aca68a48ffb2f2a3053d1b9ba
+# Starting compiling Oculus.Spatializer.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b156eaa47dfcd47879305a69323c4cd8
+# Starting compiling Unity.Timeline.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-c2d965d11cf624af2bafab86afa931a5
+# Starting compiling Unity.TextMeshPro.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-5d357310bcfcf42b088b3d25793d6113
+# Starting compiling Unity.Subsystem.Registration.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-4e3319f29cf3e4eb4aea1bbbdab4a5e1
+# Starting compiling Unity.Mathematics.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-2b7e2fee64ef8432bbab8287cac56c80
+# Starting compiling UnityEngine.XR.LegacyInputHelpers.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-f53a450b6cb204c03baaa083a6f645a8
+# Starting compiling Oculus.AudioManager.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-12dccaa2fd34a461aa428eed696fa6af
+# Starting compiling Unity.XR.InteractionSubsystems.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-6173002b448534c03b5b6cd1af5f8d38
+# Starting compiling Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-c33850820b81d49059d74ba25ad2ab68
+# Starting compiling Oculus.LipSync.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-4a81ec11210b04497835388a3e68cd22
+# Starting compiling Unity.XR.ARSubsystems.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d989eacdf4d114b6ba81a05cfdb67a39
+# Starting compiling Unity.RenderPipelines.Core.Runtime.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-85a21daad11bd4bb597c214ddb7b41cc
+# Starting compiling Unity.XR.Oculus.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-5ab4fcab270e4486d8591648bcc266b1
+# Starting compiling Unity.XR.Interaction.Toolkit.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-16502f5d502f0446bbca6bb40c5f50a7
+# Starting compiling Unity.RenderPipeline.Universal.ShaderLibrary.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-20753db08a88d4993851b96205d391b6
+# Starting compiling Unity.RenderPipelines.Universal.Runtime.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-64b8357947bab46cab3ac79082080558
+# Starting compiling Oculus.VR.dll
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-fe4f33889d180471f8677cd4294534f9
 # Starting compiling Assembly-CSharp.dll
-/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-a3d6ac8b1cefd461b935fcd778b924c9
-# Starting compiling Assembly-CSharp-Editor.dll
-/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-7b182353cf36a47cb9b3fe25ac11792f
+/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-8eaac625acee14b20842044b6aae4487
