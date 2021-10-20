@@ -12534,9 +12534,9 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1837365212}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
+      - m_Target: {fileID: 1837365213}
+        m_TargetAssemblyTypeName: LocomotionControllerV, Assembly-CSharp
+        m_MethodName: set_EnableRightTeleport
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12549,9 +12549,9 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1837365212}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
+      - m_Target: {fileID: 1837365213}
+        m_TargetAssemblyTypeName: LocomotionControllerV, Assembly-CSharp
+        m_MethodName: set_EnableRightTeleport
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
