@@ -1,5 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - HandPresence
+    - Readme
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
@@ -42,6 +45,9 @@ ScriptsOnlyBuild:
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.Interaction.Toolkit.dll:
+    - UnityEngine.XR.Interaction.Toolkit.XRController
+    - UnityEngine.XR.Interaction.Toolkit.XRDirectInteractor
+    - UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable
     - UnityEngine.XR.Interaction.Toolkit.XRRig
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
@@ -101,113 +107,137 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1588}
+      Script: {instanceID: 1660}
     - Class: 114
-      Script: {instanceID: 1590}
+      Script: {instanceID: 1662}
     - Class: 114
-      Script: {instanceID: 1592}
+      Script: {instanceID: 1664}
     - Class: 114
-      Script: {instanceID: 1594}
+      Script: {instanceID: 1666}
     - Class: 114
-      Script: {instanceID: 1600}
+      Script: {instanceID: 1668}
     - Class: 114
-      Script: {instanceID: 1738}
+      Script: {instanceID: 1684}
     - Class: 114
-      Script: {instanceID: 2294}
+      Script: {instanceID: 1762}
     - Class: 114
-      Script: {instanceID: 2384}
+      Script: {instanceID: 1834}
     - Class: 114
-      Script: {instanceID: 2440}
+      Script: {instanceID: 2442}
     - Class: 114
-      Script: {instanceID: 3044}
+      Script: {instanceID: 2538}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 2586}
     - Class: 114
-      Script: {instanceID: 3172}
+      Script: {instanceID: 2602}
     - Class: 114
-      Script: {instanceID: 3194}
+      Script: {instanceID: 3262}
     - Class: 114
-      Script: {instanceID: 3246}
+      Script: {instanceID: 3346}
     - Class: 114
-      Script: {instanceID: 3364}
+      Script: {instanceID: 3404}
     - Class: 114
-      Script: {instanceID: 3474}
+      Script: {instanceID: 3428}
     - Class: 114
-      Script: {instanceID: 3782}
+      Script: {instanceID: 3490}
     - Class: 114
-      Script: {instanceID: 3894}
+      Script: {instanceID: 3604}
     - Class: 114
-      Script: {instanceID: 4166}
+      Script: {instanceID: 3622}
     - Class: 114
-      Script: {instanceID: 4912}
+      Script: {instanceID: 3750}
     - Class: 114
-      Script: {instanceID: 4928}
+      Script: {instanceID: 4082}
     - Class: 114
-      Script: {instanceID: 4988}
+      Script: {instanceID: 4210}
     - Class: 114
-      Script: {instanceID: 5168}
+      Script: {instanceID: 4436}
     - Class: 114
-      Script: {instanceID: 5170}
+      Script: {instanceID: 4508}
     - Class: 114
-      Script: {instanceID: 5190}
+      Script: {instanceID: 5326}
     - Class: 114
-      Script: {instanceID: 5436}
+      Script: {instanceID: 5342}
     - Class: 114
-      Script: {instanceID: 5548}
+      Script: {instanceID: 5416}
     - Class: 114
-      Script: {instanceID: 5678}
+      Script: {instanceID: 5614}
     - Class: 114
-      Script: {instanceID: 5742}
+      Script: {instanceID: 5616}
     - Class: 114
-      Script: {instanceID: 5748}
+      Script: {instanceID: 5638}
     - Class: 114
-      Script: {instanceID: 5846}
+      Script: {instanceID: 5798}
     - Class: 114
-      Script: {instanceID: 5884}
+      Script: {instanceID: 5908}
     - Class: 114
-      Script: {instanceID: 5926}
+      Script: {instanceID: 6022}
     - Class: 114
-      Script: {instanceID: 6002}
+      Script: {instanceID: 6158}
     - Class: 114
-      Script: {instanceID: 6100}
+      Script: {instanceID: 6230}
     - Class: 114
-      Script: {instanceID: 6232}
+      Script: {instanceID: 6236}
     - Class: 114
-      Script: {instanceID: 6342}
+      Script: {instanceID: 6348}
     - Class: 114
-      Script: {instanceID: 6392}
+      Script: {instanceID: 6388}
     - Class: 114
-      Script: {instanceID: 6412}
+      Script: {instanceID: 6430}
     - Class: 114
-      Script: {instanceID: 6998}
+      Script: {instanceID: 6520}
     - Class: 114
-      Script: {instanceID: 7290}
+      Script: {instanceID: 6634}
     - Class: 114
-      Script: {instanceID: 7520}
+      Script: {instanceID: 6774}
     - Class: 114
-      Script: {instanceID: 21390}
+      Script: {instanceID: 6896}
     - Class: 114
-      Script: {instanceID: 21440}
+      Script: {instanceID: 6948}
+    - Class: 114
+      Script: {instanceID: 7112}
+    - Class: 114
+      Script: {instanceID: 7602}
+    - Class: 114
+      Script: {instanceID: 7908}
+    - Class: 114
+      Script: {instanceID: 8152}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
     - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -220,6 +250,10 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 328
+      Script: {instanceID: 0}
+    - Class: 329
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -234,6 +268,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: d251bf88db6c95a6b1aa0b69298da9ef
+    assemblyName: UnityEngine.SpatialTracking.dll
+    namespaceName: UnityEngine.SpatialTracking
+    className: TrackedPoseDriver
   - hash:
       serializedVersion: 2
       Hash: ae83e830e7a90c0aff918c4c2e520825
@@ -270,6 +310,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering
     className: FreeCamera
+  - hash:
+      serializedVersion: 2
+      Hash: d8e2a52ca99d0258e884ab7d896395ea
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusSettings
   - hash:
       serializedVersion: 2
       Hash: 87e6cfc8015337aef5fa238bd355b16f
@@ -458,6 +504,12 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerWidget
   - hash:
       serializedVersion: 2
+      Hash: 0c5108545fb925730d4d5887ebcdd20c
+    assemblyName: Unity.XR.ARSubsystems.dll
+    namespaceName: UnityEngine.XR.ARSubsystems
+    className: XRReferenceObjectLibrary
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
@@ -584,6 +636,12 @@ ScriptsOnlyBuild:
     className: UniversalRenderPipelineAsset
   - hash:
       serializedVersion: 2
+      Hash: 98aa0a0c8ff2910eb12af89c7e0eb661
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRGeneralSettings
+  - hash:
+      serializedVersion: 2
       Hash: da4cc51a02ce84afe2cecd27cfe6997a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -594,6 +652,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8ab9295d94483c961936d82d233d3df2
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRManagerSettings
   - hash:
       serializedVersion: 2
       Hash: 5e1eefcd5106de6c2e85908a3b2d3f04
@@ -740,6 +804,12 @@ ScriptsOnlyBuild:
     className: ChromaticAberration
   - hash:
       serializedVersion: 2
+      Hash: 0a34c046e93c3edeb3773627fdea0614
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HandPresence
+  - hash:
+      serializedVersion: 2
       Hash: 8efe7e1208161b145fd1b63bb1207a01
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
@@ -756,6 +826,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Experimental.Rendering.Universal
     className: Renderer2DData
+  - hash:
+      serializedVersion: 2
+      Hash: 01473135d671a71d740e507b04eb93da
+    assemblyName: Unity.XR.ARSubsystems.dll
+    namespaceName: UnityEngine.XR.ARSubsystems
+    className: XRReferenceImageLibrary
   - hash:
       serializedVersion: 2
       Hash: 6980e81ddc615a861309d2d659cc3760
@@ -1220,10 +1296,10 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: d251bf88db6c95a6b1aa0b69298da9ef
-    assemblyName: UnityEngine.SpatialTracking.dll
-    namespaceName: UnityEngine.SpatialTracking
-    className: TrackedPoseDriver
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusLoader
   - hash:
       serializedVersion: 2
       Hash: 5bc5466e198a4045dc8caf1ca0c6dcb4
@@ -1428,43 +1504,7 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 98aa0a0c8ff2910eb12af89c7e0eb661
-    assemblyName: Unity.XR.Management.dll
-    namespaceName: UnityEngine.XR.Management
-    className: XRGeneralSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 8ab9295d94483c961936d82d233d3df2
-    assemblyName: Unity.XR.Management.dll
-    namespaceName: UnityEngine.XR.Management
-    className: XRManagerSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Unity.XR.Oculus.dll
-    namespaceName: Unity.XR.Oculus
-    className: OculusLoader
-  - hash:
-      serializedVersion: 2
-      Hash: d8e2a52ca99d0258e884ab7d896395ea
-    assemblyName: Unity.XR.Oculus.dll
-    namespaceName: Unity.XR.Oculus
-    className: OculusSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 01473135d671a71d740e507b04eb93da
-    assemblyName: Unity.XR.ARSubsystems.dll
-    namespaceName: UnityEngine.XR.ARSubsystems
-    className: XRReferenceImageLibrary
-  - hash:
-      serializedVersion: 2
-      Hash: 0c5108545fb925730d4d5887ebcdd20c
-    assemblyName: Unity.XR.ARSubsystems.dll
-    namespaceName: UnityEngine.XR.ARSubsystems
-    className: XRReferenceObjectLibrary
   platform: 13
   scenePathNames:
   - Assets/Scenes/VR Bowling.unity
-  playerPath: /Users/thomaspiccolo/Documents/GitHub/VRAppIns1/InspireVR1/InspireVR1app.apk
+  playerPath: /Users/thomaspiccolo/Documents/GitHub/VRAppIns1/InspireVR1/InspireVR1app10.apk
