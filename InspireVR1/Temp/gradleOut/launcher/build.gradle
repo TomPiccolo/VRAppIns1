@@ -18,7 +18,7 @@ android {
     defaultConfig {
         minSdkVersion 23
         targetSdkVersion 29
-        applicationId 'com.BrooklynTravels.Momento4'
+        applicationId 'com.BrooklynTravels.Momento5'
         ndk {
             abiFilters 'armeabi-v7a'
         }
