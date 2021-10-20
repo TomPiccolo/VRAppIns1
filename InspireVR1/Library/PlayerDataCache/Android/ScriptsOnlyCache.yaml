@@ -2,7 +2,6 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - HandPresence
-    - Readme
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
@@ -144,91 +143,91 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1668}
     - Class: 114
-      Script: {instanceID: 1684}
+      Script: {instanceID: 1674}
     - Class: 114
-      Script: {instanceID: 1762}
+      Script: {instanceID: 1752}
     - Class: 114
-      Script: {instanceID: 1834}
+      Script: {instanceID: 1824}
     - Class: 114
-      Script: {instanceID: 2442}
+      Script: {instanceID: 2432}
     - Class: 114
-      Script: {instanceID: 2538}
+      Script: {instanceID: 2528}
     - Class: 114
-      Script: {instanceID: 2586}
+      Script: {instanceID: 2576}
     - Class: 114
-      Script: {instanceID: 2602}
+      Script: {instanceID: 2592}
     - Class: 114
-      Script: {instanceID: 3262}
+      Script: {instanceID: 3252}
     - Class: 114
-      Script: {instanceID: 3346}
+      Script: {instanceID: 3336}
     - Class: 114
-      Script: {instanceID: 3404}
+      Script: {instanceID: 3394}
     - Class: 114
-      Script: {instanceID: 3428}
+      Script: {instanceID: 3418}
     - Class: 114
-      Script: {instanceID: 3490}
+      Script: {instanceID: 3480}
     - Class: 114
-      Script: {instanceID: 3604}
+      Script: {instanceID: 3594}
     - Class: 114
-      Script: {instanceID: 3622}
+      Script: {instanceID: 3612}
     - Class: 114
-      Script: {instanceID: 3750}
+      Script: {instanceID: 3740}
     - Class: 114
-      Script: {instanceID: 4082}
+      Script: {instanceID: 4072}
     - Class: 114
-      Script: {instanceID: 4210}
+      Script: {instanceID: 4200}
     - Class: 114
-      Script: {instanceID: 4436}
+      Script: {instanceID: 4426}
     - Class: 114
-      Script: {instanceID: 4508}
+      Script: {instanceID: 4498}
     - Class: 114
-      Script: {instanceID: 5326}
+      Script: {instanceID: 5316}
     - Class: 114
-      Script: {instanceID: 5342}
+      Script: {instanceID: 5332}
     - Class: 114
-      Script: {instanceID: 5416}
+      Script: {instanceID: 5406}
     - Class: 114
-      Script: {instanceID: 5614}
+      Script: {instanceID: 5604}
     - Class: 114
-      Script: {instanceID: 5616}
+      Script: {instanceID: 5606}
     - Class: 114
-      Script: {instanceID: 5638}
+      Script: {instanceID: 5628}
     - Class: 114
-      Script: {instanceID: 5798}
+      Script: {instanceID: 5788}
     - Class: 114
-      Script: {instanceID: 5908}
+      Script: {instanceID: 5898}
     - Class: 114
-      Script: {instanceID: 6022}
+      Script: {instanceID: 6012}
     - Class: 114
-      Script: {instanceID: 6158}
+      Script: {instanceID: 6148}
     - Class: 114
-      Script: {instanceID: 6230}
+      Script: {instanceID: 6220}
     - Class: 114
-      Script: {instanceID: 6236}
+      Script: {instanceID: 6226}
     - Class: 114
-      Script: {instanceID: 6348}
+      Script: {instanceID: 6338}
     - Class: 114
-      Script: {instanceID: 6388}
+      Script: {instanceID: 6378}
     - Class: 114
-      Script: {instanceID: 6430}
+      Script: {instanceID: 6420}
     - Class: 114
-      Script: {instanceID: 6520}
+      Script: {instanceID: 6510}
     - Class: 114
-      Script: {instanceID: 6634}
+      Script: {instanceID: 6624}
     - Class: 114
-      Script: {instanceID: 6774}
+      Script: {instanceID: 6764}
     - Class: 114
-      Script: {instanceID: 6896}
+      Script: {instanceID: 6886}
     - Class: 114
-      Script: {instanceID: 6948}
+      Script: {instanceID: 6938}
     - Class: 114
-      Script: {instanceID: 7112}
+      Script: {instanceID: 7102}
     - Class: 114
-      Script: {instanceID: 7602}
+      Script: {instanceID: 7592}
     - Class: 114
-      Script: {instanceID: 7908}
+      Script: {instanceID: 7898}
     - Class: 114
-      Script: {instanceID: 8152}
+      Script: {instanceID: 8142}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1507,4 +1506,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/VR Bowling.unity
-  playerPath: /Users/thomaspiccolo/Documents/GitHub/VRAppIns1/InspireVR1/InspireVR1app10.apk
+  playerPath: /Users/thomaspiccolo/Documents/GitHub/VRAppIns1/InspireVR1/mementoVR1app1.apk
