@@ -22,107 +22,107 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55911
+61636
 Successfully changed project path to: /Users/thomaspiccolo/Documents/GitHub/VRAppIns1/InspireVR1
 /Users/thomaspiccolo/Documents/GitHub/VRAppIns1/InspireVR1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 125.50 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 6.58 ms.
+Refreshing native plugins compatible for Editor in 160.49 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 4.82 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path /Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/thomaspiccolo/Documents/GitHub/VRAppIns1/InspireVR1/Assets
 GfxDevice: creating device client; threaded=0
-2021-10-11 07:52:54.886 Unity[19287:2011748] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-2021-10-11 07:52:54.886 Unity[19287:2011748] Metal devices available: 1
-2021-10-11 07:52:54.886 Unity[19287:2011748] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-2021-10-11 07:52:54.886 Unity[19287:2011748] Forcing user selected device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2021-10-11 09:45:27.297 Unity[20454:2169948] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2021-10-11 09:45:27.297 Unity[20454:2169948] Metal devices available: 1
+2021-10-11 09:45:27.297 Unity[20454:2169948] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2021-10-11 09:45:27.297 Unity[20454:2169948] Forcing user selected device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = '/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56287
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56454
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.005149 seconds.
+Registered in 0.003278 seconds.
 Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 90.85 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.54 ms.
+Refreshing native plugins compatible for Editor in 88.08 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.72 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.522 seconds
+- Completed reload, in  6.090 seconds
 Domain Reload Profiling:
-	ReloadAssembly (6522ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (6091ms)
+		BeginReloadAssembly (42ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (681ms)
-			LoadAssemblies (106ms)
-			RebuildTransferFunctionScriptingTraits (2ms)
-			SetupTypeCache (239ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (562ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (190ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (314ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (267ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (91ms)
-				BeforeProcessingInitializeOnLoad (37ms)
-				ProcessInitializeOnLoadAttributes (139ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (33ms)
+				ProcessInitializeOnLoadAttributes (106ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011189 seconds.
+Registered in 0.009793 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 84.96 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.49 ms.
+Refreshing native plugins compatible for Editor in 88.92 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.48 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.673 seconds
+- Completed reload, in  1.563 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1675ms)
-		BeginReloadAssembly (171ms)
+	ReloadAssembly (1566ms)
+		BeginReloadAssembly (163ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1435ms)
-			LoadAssemblies (133ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1327ms)
+			LoadAssemblies (131ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (492ms)
+			SetupTypeCache (438ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (83ms)
-			SetupLoadedEditorAssemblies (575ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (524ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (85ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (377ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (320ms)
 				ProcessInitializeOnLoadMethodAttributes (5ms)
 				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.024034 seconds.
+Validating Project structure ... 0.039990 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.072171 seconds.
+Upgrading shader files ...0.082719 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -133,19 +133,19 @@ RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter:
 RefreshProfiler: Total: 0.000ms
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launching external process: /Users/thomaspiccolo/Documents/GitHub/VRAppProject1A/2020.3.19f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.47 ms.
+Refreshing native plugins compatible for Editor in 1.34 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.57 ms.
 Unloading 4037 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 308.3 MB.
-System memory in use after: 307.8 MB.
+System memory in use before: 308.5 MB.
+System memory in use after: 307.9 MB.
 
 Unloading 404 unused Assets to reduce memory usage. Loaded Objects now: 4497.
-Total: 7.566494 ms (FindLiveObjects: 0.605464 ms CreateObjectMapping: 0.334832 ms MarkObjects: 6.056720 ms  DeleteObjects: 0.568381 ms)
+Total: 6.639653 ms (FindLiveObjects: 0.451815 ms CreateObjectMapping: 0.202332 ms MarkObjects: 5.127646 ms  DeleteObjects: 0.856572 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,22 +159,30 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+  path: Assets/Resources
+  artifactKey: Guid(d3038d8303ff24fb5bada27ac4197488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(d3038d8303ff24fb5bada27ac4197488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c455145fbe248ebaeef548a1ebda146') in 0.025466 seconds 
+  Import took 0.036807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.318842 seconds.
   path: Assets/LocomotionControllerV.cs
   artifactKey: Guid(a7528a856a2c4414084689a4332bfa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LocomotionControllerV.cs using Guid(a7528a856a2c4414084689a4332bfa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9485b727274f4ce55ffd1df52c76c7') in 0.428069 seconds 
-  Import took 0.438964 seconds .
+Start importing Assets/LocomotionControllerV.cs using Guid(a7528a856a2c4414084689a4332bfa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9ebbe6b3b59f59c3e59fb5eec93469') in 0.248873 seconds 
+  Import took 0.258082 seconds .
 
 ========================================================================
 Received Prepare
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 17.41 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.46 ms.
+Refreshing native plugins compatible for Editor in 8.83 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.45 ms.
 Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 222.4 MB.
-System memory in use after: 222.4 MB.
+System memory in use before: 222.5 MB.
+System memory in use after: 222.5 MB.
 
 Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 4497.
-Total: 4.053358 ms (FindLiveObjects: 0.409072 ms CreateObjectMapping: 0.191652 ms MarkObjects: 3.185586 ms  DeleteObjects: 0.266499 ms)
+Total: 4.046136 ms (FindLiveObjects: 0.468651 ms CreateObjectMapping: 0.173394 ms MarkObjects: 3.147152 ms  DeleteObjects: 0.256007 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -188,76 +196,15 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011194 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.51 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.49 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.481 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1482ms)
-		BeginReloadAssembly (156ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (89ms)
-		EndReloadAssembly (1255ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (433ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (458ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (145ms)
-				ProcessInitializeOnLoadAttributes (300ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.50 ms.
-Unloading 3839 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 293.2 MB.
-System memory in use after: 293.2 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4501.
-Total: 4.351340 ms (FindLiveObjects: 0.391839 ms CreateObjectMapping: 0.181301 ms MarkObjects: 3.506908 ms  DeleteObjects: 0.270398 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 15.47 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.48 ms.
+Refreshing native plugins compatible for Editor in 15.93 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.46 ms.
 Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 223.6 MB.
-System memory in use after: 223.5 MB.
+System memory in use before: 222.6 MB.
+System memory in use after: 222.5 MB.
 
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 4501.
-Total: 4.399659 ms (FindLiveObjects: 0.420873 ms CreateObjectMapping: 0.178695 ms MarkObjects: 3.514139 ms  DeleteObjects: 0.285283 ms)
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 4497.
+Total: 11.796867 ms (FindLiveObjects: 0.389063 ms CreateObjectMapping: 0.159298 ms MarkObjects: 10.973044 ms  DeleteObjects: 0.274754 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -269,4 +216,51 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 2101.453151 seconds.
+  path: Packages/com.unity.xr.interaction.toolkit/Runtime/Locomotion/LocomotionSystem.cs
+  artifactKey: Guid(03a5df2202a8b96488c744be3bd0c33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit/Runtime/Locomotion/LocomotionSystem.cs using Guid(03a5df2202a8b96488c744be3bd0c33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faeb7e258ac43aaaeff445e482d134b5') in 0.010271 seconds 
+  Import took 0.021712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90439.475702 seconds.
+  path: Packages/com.unity.xr.interaction.toolkit/Runtime/Locomotion/LocomotionProvider.cs
+  artifactKey: Guid(dc2115b5275bb4d428061e74078afdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit/Runtime/Locomotion/LocomotionProvider.cs using Guid(dc2115b5275bb4d428061e74078afdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a7289f2e4b7e667128145a2d21b75c') in 0.020212 seconds 
+  Import took 0.095214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2483.989923 seconds.
+  path: Packages/com.unity.xr.interaction.toolkit/Runtime/Locomotion/CharacterControllerDriver.cs
+  artifactKey: Guid(af6bf904e410ee8479f9093d8830d1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit/Runtime/Locomotion/CharacterControllerDriver.cs using Guid(af6bf904e410ee8479f9093d8830d1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1600652dec30a686a4a209c1e94b2023') in 0.034481 seconds 
+  Import took 0.092802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.160838 seconds.
+  path: Packages/com.unity.xr.interaction.toolkit/Runtime/AR
+  artifactKey: Guid(a64c264c1834249f387f1763b3d1989f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit/Runtime/AR using Guid(a64c264c1834249f387f1763b3d1989f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f363dcf09ef206e870057b368835541d') in 0.002131 seconds 
+  Import took 0.011674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.128270 seconds.
+  path: Packages/com.unity.xr.interaction.toolkit/Editor
+  artifactKey: Guid(08757b89960994492baa89d8001801e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit/Editor using Guid(08757b89960994492baa89d8001801e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9a8384bdb3399d20f18b7c10d5aca2') in 0.003737 seconds 
+  Import took 0.020636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40036.445985 seconds.
+  path: Packages/com.unity.xr.interaction.toolkit
+  artifactKey: Guid(606b3fa0257ef2bbfc46aa049a55bc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit using Guid(606b3fa0257ef2bbfc46aa049a55bc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d4af18f4d41da021eca9b33dc6b659') in 0.023061 seconds 
+  Import took 0.168867 seconds .
+
