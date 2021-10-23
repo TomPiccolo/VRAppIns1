@@ -1,4 +1,4 @@
-#Fri Oct 22 18:02:04 EDT 2021
+#Sat Oct 23 09:50:48 EDT 2021
 base.0=/Users/thomaspiccolo/Documents/GitHub/VRAppIns1/InspireVR1/Temp/gradleOut/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

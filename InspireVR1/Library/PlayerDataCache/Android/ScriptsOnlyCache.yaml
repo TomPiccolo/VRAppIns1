@@ -40,6 +40,7 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.UI.DebugUIHandlerVector4
     - UnityEngine.Rendering.UI.UIFoldout
     Unity.RenderPipelines.Universal.Editor.dll:
+    - UnityEditor.Rendering.Universal.AssetVersion
     - UnityEditor.Rendering.Universal.UniversalProjectSettings
     Unity.RenderPipelines.Universal.Runtime.dll:
     - UnityEngine.Rendering.Universal.ForwardRendererData
@@ -147,6 +148,8 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
+      Script: {instanceID: 0}
+    - Class: 111
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 1816}
@@ -2876,4 +2879,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/VR Bowling.unity
-  playerPath: /Users/thomaspiccolo/Documents/GitHub/VRAppIns1/InspireVR1/mementoVR1app5.apk
+  playerPath: /Users/thomaspiccolo/Documents/GitHub/VRAppIns1/InspireVR1/mementoVR1app6.apk

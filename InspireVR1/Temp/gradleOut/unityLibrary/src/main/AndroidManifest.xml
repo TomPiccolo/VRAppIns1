@@ -14,7 +14,7 @@
     <meta-data android:name="unity.splash-mode" android:value="0" />
     <meta-data android:name="unity.splash-enable" android:value="True" />
     <meta-data android:name="unity.allow-resizable-window" android:value="False" />
-    <meta-data android:name="unity.build-id" android:value="ddd0e7cf-367b-4775-b4c0-a946cc071544" />
+    <meta-data android:name="unity.build-id" android:value="351e8572-f368-4993-b990-32896dca332d" />
     <meta-data android:name="com.samsung.android.vr.application.mode" android:value="vr_only" />
     <meta-data android:name="com.unity.xr.oculus.LowOverheadMode" android:value="false" />
     <meta-data android:name="com.oculus.supportedDevices" android:value="quest|quest2" />
